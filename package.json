@@ -1,0 +1,31 @@
+{
+  "name": "hubspot-lead-stage-tracker",
+  "version": "1.0.0",
+  "description": "Professional Lead Stage Tracker Custom Module for HubSpot",
+  "private": true,
+  "scripts": {
+    "install": "npm install",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "preview": "hs app preview",
+    "upload": "hs app upload"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "ts-loader": "^9.4.4",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.23.0",
+    "@babel/preset-typescript": "^7.23.0",
+    "babel-loader": "^9.1.3"
+  }
+}
