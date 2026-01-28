@@ -4,7 +4,6 @@
   "description": "Professional Lead Stage Tracker Custom Module for HubSpot",
   "private": true,
   "scripts": {
-    "install": "npm install",
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
     "preview": "hs app preview",
